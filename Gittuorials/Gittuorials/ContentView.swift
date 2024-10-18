@@ -17,7 +17,7 @@ struct ContentView: View {
             Text("17번째 줄 수정해볼게요.")
 
             Text("Garden!!!!@#@#@!@23!!")
-            Text("지수임")
+            Text("지수임 뭐래 승호임ㅋ")
             Text("hi world ")
                 .font(.largeTitle)
         }
