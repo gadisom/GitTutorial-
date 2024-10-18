@@ -13,14 +13,15 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Garden!!!!!!")
-            Text("17번째 줄 수정해볼게요.")
+            ZStack {
+                Text("Garden!!!!!!")
+                Text("17번째 줄 수정해볼게요.")
 
-            Text("Garden!!!!@#@#@!@23!!")
-            Text("지수임 뭐래 승호임ㅋ")
-            Text("지수임 내가 지수라고;;;;")
-            Text("hi world ")
-                .font(.largeTitle)
+                Text("Garden!!!!@#@#@!@23!!")
+                Text("지수임 뭐래 승호임ㅋ")
+                Text("hi world ")
+                    .font(.largeTitle)
+            }
         }
         .padding()
     }
