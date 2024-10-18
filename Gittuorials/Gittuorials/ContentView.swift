@@ -18,6 +18,7 @@ struct ContentView: View {
 
             Text("Garden!!!!@#@#@!@23!!")
             Text("지수임 뭐래 승호임ㅋ")
+            Text("지수임 내가 지수라고;;;;")
             Text("hi world ")
                 .font(.largeTitle)
         }
