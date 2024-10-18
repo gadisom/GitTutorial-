@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		42BCDD8F2CC29777003B6FA6 /* 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BCDD852CC29777003B6FA6 /* 2.swift */; };
+		42BCDD902CC29777003B6FA6 /* 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BCDD872CC29777003B6FA6 /* 1.swift */; };
+		42BCDD912CC29777003B6FA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BCDD8C2CC29777003B6FA6 /* ContentView.swift */; };
+		42BCDD922CC29777003B6FA6 /* GittuorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BCDD8D2CC29777003B6FA6 /* GittuorialsApp.swift */; };
+		42BCDD932CC29777003B6FA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BCDD892CC29777003B6FA6 /* Preview Assets.xcassets */; };
+		42BCDD942CC29777003B6FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BCDD8B2CC29777003B6FA6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		42BCDD852CC29777003B6FA6 /* 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.swift; sourceTree = "<group>"; };
+		42BCDD872CC29777003B6FA6 /* 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.swift; sourceTree = "<group>"; };
+		42BCDD892CC29777003B6FA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42BCDD8B2CC29777003B6FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42BCDD8C2CC29777003B6FA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42BCDD8D2CC29777003B6FA6 /* GittuorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GittuorialsApp.swift; sourceTree = "<group>"; };
 		BD691BF42CC0EF28003A300B /* Gittuorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gittuorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BD691BF62CC0EF28003A300B /* Gittuorials */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Gittuorials;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BD691BF12CC0EF28003A300B /* Frameworks */ = {
@@ -29,10 +36,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42BCDD862CC29777003B6FA6 /* New Folder */ = {
+			isa = PBXGroup;
+			children = (
+				42BCDD852CC29777003B6FA6 /* 2.swift */,
+			);
+			path = "New Folder";
+			sourceTree = "<group>";
+		};
+		42BCDD882CC29777003B6FA6 /* garden */ = {
+			isa = PBXGroup;
+			children = (
+				42BCDD862CC29777003B6FA6 /* New Folder */,
+				42BCDD872CC29777003B6FA6 /* 1.swift */,
+			);
+			path = garden;
+			sourceTree = "<group>";
+		};
+		42BCDD8A2CC29777003B6FA6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				42BCDD892CC29777003B6FA6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42BCDD8E2CC29777003B6FA6 /* Gittuorials */ = {
+			isa = PBXGroup;
+			children = (
+				42BCDD882CC29777003B6FA6 /* garden */,
+				42BCDD8A2CC29777003B6FA6 /* Preview Content */,
+				42BCDD8B2CC29777003B6FA6 /* Assets.xcassets */,
+				42BCDD8C2CC29777003B6FA6 /* ContentView.swift */,
+				42BCDD8D2CC29777003B6FA6 /* GittuorialsApp.swift */,
+			);
+			path = Gittuorials;
+			sourceTree = "<group>";
+		};
 		BD691BEB2CC0EF28003A300B = {
 			isa = PBXGroup;
 			children = (
-				BD691BF62CC0EF28003A300B /* Gittuorials */,
+				42BCDD8E2CC29777003B6FA6 /* Gittuorials */,
 				BD691BF52CC0EF28003A300B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +103,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BD691BF62CC0EF28003A300B /* Gittuorials */,
 			);
 			name = Gittuorials;
 			packageProductDependencies = (
@@ -109,6 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BCDD932CC29777003B6FA6 /* Preview Assets.xcassets in Resources */,
+				42BCDD942CC29777003B6FA6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BCDD8F2CC29777003B6FA6 /* 2.swift in Sources */,
+				42BCDD902CC29777003B6FA6 /* 1.swift in Sources */,
+				42BCDD912CC29777003B6FA6 /* ContentView.swift in Sources */,
+				42BCDD922CC29777003B6FA6 /* GittuorialsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
