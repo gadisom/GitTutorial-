@@ -14,7 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Garden!!!!!!")
-            Text("17번째 줄 수정해볼게요.")
+            Text("17번째 줄 수정해볼게요. 한 번더 해 볼게요.")
 
             Text("Garden!!!!@#@#@!@23!!")
             Text("지수임")
