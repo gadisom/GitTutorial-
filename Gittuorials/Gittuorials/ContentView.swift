@@ -19,6 +19,7 @@ struct ContentView: View {
             Text("Garden!!!!@#@#@!@23!!")
             Text("지수임")
             Text("hi world ")
+                .font(.largeTitle)
         }
         .padding()
     }
